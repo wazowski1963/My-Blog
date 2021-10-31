@@ -1,41 +1,61 @@
-body
-{
-    background-color: aqua; 
+.body {
+    background-color: aqua;
 }
-#contact iframe
-{
+
+#contact iframe {
     width: 100%;
 }
-.contact_1 h3
-{
+
+.contact_1 h3 {
     display: inline;
 }
-.contact_1 a
-{
+
+.contact_1 a {
     text-shadow: none;
 }
- 
-input
-{
+
+input {
     background: grey
 }
 
-.travel_maindiv{
+.travel_maindiv {
     border: 1px solid #c7c7c7;
     float: none;
     padding-left: 0px;
     padding-right: 0px;
 }
 
-.travel_maindiv img{
+.travel_maindiv img {
     width: 100%;
 }
 
-.travel_maindiv hr{
+.travel_maindiv hr {
     width: 230px;
     height: 5px;
 }
 
-.travel_maindiv h5, .travel_maindiv p {
+.travel_maindiv h5,
+.travel_maindiv p {
     margin-left: 20px;
+}
+
+img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img_modal {
+    display: inline-block;
+}
+
+.p_modal {
+    margin-top: 10px;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-content {
+    margin-top: 100px;
 }
